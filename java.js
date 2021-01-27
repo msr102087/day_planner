@@ -13,10 +13,18 @@ console.log(m.format("dddd MMM Do YYYY"));
 });
 
 // Save User Input from Text Area into Time Slot
-var eventInput
-var saveBtn 
+var saveBtn = $('.saveBtn');
 
-localStorage.setItem("eventInput")
+saveBtn.on('click', function () {
+
+    var hour = 
+    var eventInput = 
+
+    localStorage.setItem('hour, eventInput')
+
+});
+
+
 
 // Color Code Time Slots for Past Present and Future Time
 

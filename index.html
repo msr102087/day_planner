@@ -23,17 +23,72 @@
   </head>
 
   <body>
+
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDate" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+        <div class="row time-block">
+           <div class="col-1 hour">9AM</div>
+           <textarea id="9" class= "col-10 event"></textarea>
+           <button id ="saveEvent1" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">10AM</div>
+           <textarea id="10" class= "col-10 event"></textarea>
+           <button id ="saveEvent2" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">11AM</div>
+           <textarea id="11" class= "col-10 event"></textarea>
+           <button id ="saveEvent3" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">12PM</div>
+           <textarea id="12" class= "col-10 event"></textarea>
+           <button id ="saveEvent4" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">1PM</div>
+           <textarea id="13" class= "col-10 event"></textarea>
+           <button id ="saveEvent5" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">2PM</div>
+           <textarea id="14" class= "col-10 event"></textarea>
+           <button id ="saveEvent6" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">3PM</div>
+           <textarea id="15" class= "col-10 event"></textarea>
+           <button id ="saveEvent7" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">4PM</div>
+           <textarea id="16" class= "col-10 event"></textarea>
+           <button id ="saveEvent8" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+        <div class="row time-block">
+           <div class="col-1 hour">5PM</div>
+           <textarea id="event9" class= "col-10 event"></textarea>
+           <button id ="saveEvent9" class="saveBtn saveBtn:Hover">&#128190;</button>
+        </div>
+
+     <br>
+
+     <button id ="clear" class="clearBtn clearBtn:Hover"> CLEAR ALL </button>
+
+     <br><hr>
+
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="java.js"
+    <script src="java.js" type ="text/javascript"></script>
   </body>
 </html>

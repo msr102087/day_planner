@@ -8,8 +8,8 @@ This project was created to assist a user with a busy schedule to map out their 
 
 This project was created using:
 
- -HTML
- -JavaScript
- -JQuery
- -Moment.js
- -Local Storage
+ - HTML
+ - JavaScript
+ - JQuery
+ - Moment.js
+ - Local Storage

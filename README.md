@@ -16,3 +16,9 @@ This project was created using:
 
 ## Project Screenshot
 
+<img width="1430" alt="Screen Shot 2021-01-28 at 10 58 01 PM" src="https://user-images.githubusercontent.com/74628028/106242404-7df6bc00-61bc-11eb-86ca-749816a03790.png">
+
+## Site Deployment
+
+To view and utilize the website please visit:  https://msr102087.github.io/day_planner/
+

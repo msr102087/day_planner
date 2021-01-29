@@ -13,3 +13,6 @@ This project was created using:
  - JQuery
  - Moment.js
  - Local Storage
+
+## Project Screenshot
+
